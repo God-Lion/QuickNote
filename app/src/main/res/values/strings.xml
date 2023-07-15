@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">QuickNote</string>
+    <string name="whats_in_your_mind">whats in your mind ?</string>
+    <string name="delete_notes">delete</string>
+    <string name="share_note">Share note</string>
+    <string name="todo">Note</string>
+    <string name="no_notes">no notes</string>
+    <string name="action_settings">settings</string>
+</resources>

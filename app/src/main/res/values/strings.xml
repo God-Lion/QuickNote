@@ -6,4 +6,6 @@
     <string name="todo">Note</string>
     <string name="no_notes">no notes</string>
     <string name="action_settings">settings</string>
+    <string name="save">save</string>
+    <string name="emptyNote">empty</string>
 </resources>

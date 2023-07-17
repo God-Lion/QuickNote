@@ -18,7 +18,8 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            android:theme="?attr/actionBarTheme"/>
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -30,10 +31,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
+        android:contentDescription="@string/todo"
         android:minHeight="48dp"
         android:src="@drawable/ic_add_black_24dp"
-        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck"
-        android:contentDescription="@string/todo" />
+        app:backgroundTint="@color/yellow"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
